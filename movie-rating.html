@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating App</title>
+    <link rel="stylesheet" href="movie-rating.css">
+</head>
+<body>
+    <form action="" id="form-container">
+        <label for="movie-title">Movie Title:<input type="text" id="movie-title"></label>
+        <label for="movie-rate">Movie Rating:<input type="range" name="" id="movie-rate" min="0" max="10"></label>
+        <span id="show-movie-rate"><label>Your Rating: <b>5</b></label></span>
+        <input type="button" value="Submit Rating" id="submit-movie">
+    </form>
+    <table id="movies">
+        <tr>
+        <th>Movie Name <input type="button" id="sort-name" value="SORT"></th>
+        <th>Movie Rating <input type="button" id="sort-rate" value="SORT"></th>
+        </tr>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="movie-rating.js"></script>
+</body>
+</html>
